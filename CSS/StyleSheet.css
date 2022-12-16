@@ -1,0 +1,22 @@
+﻿body {
+    background-color: white;
+}
+
+th {
+    border: 1px solid black;
+    background-color: mistyrose;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+    background-color: mistyrose;
+}

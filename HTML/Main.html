@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Brendan Cook - CSET3200 Final Project</title>
+    <link rel="stylesheet" href="\CSS\StyleSheet.css">
+    <script defer src="\Javascripts\Javascript.js"></script>
+</head>
+<body>
+    <h1>Compose Email:</h1>
+
+    <!-- Recipient,Subject,Body Information & Submit,Reset,Logout Buttons -->
+    <form id="EmailContentsForm" method="get" onsubmit="emailActions(); forwardRecipientToClient()">
+        Recipient Email Address: <br />
+        <input type="email" name="RecipientEmailAddress" id="RecipientEmailAddress" size="80" /> <br />
+
+        Subject: <br />
+        <input type="text" name="Subject" id="Subject" size="80" /> <br />
+
+        Body: <br />
+        <textarea name="Body" id="Body" rows="4" cols="60"></textarea> <br />
+
+        <input type="submit" value="Send" />
+        <input type="reset" value="Reset" />
+        <button type="button" onClick="logout();">Logout</button>
+    </form>
+
+    <h2>Sent Emails:</h2>
+
+    <!-- Create Table -->
+    <table id="EmailTable">
+        <tr>
+            <th class="TableHeader">Show Full Email</th>
+            <th class="TableHeader">Delete Email</th>
+            <th class="TableHeader">Print Email</th>
+            <th class="TableHeader">Date Sent</th>
+            <th class="TableHeader">Recipient</th>
+            <th class="TableHeader">Subject</th>
+            <th class="TableHeader">Body</th>
+
+        </tr>
+
+    </table>
+
+    <!-- Paragraph Data - Stores Email Info For Show Full Email Button Within Table -->
+
+    <p id="ParagraphData"></p>
+
+</body>
+</html>

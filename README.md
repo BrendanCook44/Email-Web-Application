@@ -14,4 +14,4 @@ After logging into the application, you will have the option to send an email. T
 within the text fields and press the send button to open the email client. When the send button is pressed, the application will ask you to choose an email client
 to use for sending the email. The recipient, subject, and body info given within the application will copy over to the email client when selected. 
 After sending the email within the client, refer back to the table in the application for additional capabilities and information. From here, you will have the option
-to show all of the sent email information, delete the email from the application, or print out the email information.
+to show all of the sent email information, delete the email information from the application, or print out the email information.

@@ -1,17 +1,39 @@
-# Email Web Application
+# Thin-Client Email Application
+
 Developed by Brendan Cook for coursework at The University of Toledo
 
-This thin-client application allows the user to send emails and store email contents within the application as well as provides the option to show, delete or print the email contents sent through the application.  
+## Overview
 
-To run the application properly, open the .sln file within Visual Studio and click the run button.
+This thin-client application allows users to send emails and store email contents within the application. It also provides options to show, delete, or print the email contents sent through the application.
 
-You will first be greeted with a login page prompting the user for a username and a password:    
-Username = "username"  
-Password is "password"    
-(very secure, I know)
+## Getting Started
 
-After logging into the application, you will have the option to send an email. To send an email, type in the recipient, subject, and body portions
-within the text fields and press the send button to open the email client. When the send button is pressed, the application will ask you to choose an email client
-to use for sending the email. The recipient, subject, and body info given within the application will copy over to the email client when selected. 
-After sending the email within the client, refer back to the table in the application for additional capabilities and information. From here, you will have the option
-to show all of the sent email information, delete the email information from the application, or print out the email information.
+To run the application properly:
+
+1. Open the `.sln` file within Visual Studio.
+2. Click the run button.
+
+## Login
+
+You will first be greeted with a login page prompting for a username and a password:
+
+- **Username:** `username`
+- **Password:** `password` (very secure, I know)
+
+## Sending an Email
+
+After logging into the application, you will have the option to send an email. Follow these steps:
+
+1. Type in the recipient, subject, and body portions within the text fields.
+2. Press the send button to open the email client.
+3. When the send button is pressed, the application will ask you to choose an email client to use for sending the email.
+4. The recipient, subject, and body info given within the application will copy over to the email client when selected.
+5. After sending the email within the client, refer back to the table in the application for additional capabilities and information.
+
+## Additional Capabilities
+
+From the table in the application, you will have the option to:
+
+- **Show:** Display all of the sent email information.
+- **Delete:** Remove the email information from the application.
+- **Print:** Print out the email information.
